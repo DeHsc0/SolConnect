@@ -1,7 +1,7 @@
-import React, { Children, useMemo, type ReactNode } from 'react';
-import { ConnectionProvider, WalletContext, WalletProvider } from '@solana/wallet-adapter-react';
+import {  useMemo, type ReactNode } from 'react';
+import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { PhantomWalletAdapter, UnsafeBurnerWalletAdapter } from '@solana/wallet-adapter-wallets';
+import { PhantomWalletAdapter} from '@solana/wallet-adapter-wallets';
 import {
     WalletModalProvider,
     WalletDisconnectButton,
